@@ -9,6 +9,9 @@ sudo apt-get upgrade -y
 # install nginx
 sudo apt-get install nginx -y
 
+# install npm
+sudo apt-get install npm -y
+
 # install git
 sudo apt-get install git -y
 
@@ -19,3 +22,9 @@ sudo apt-get install nodejs -y
 
 # install pm2
 sudo npm install pm2 -g
+
+# environment
+sudo npm install /home/ubuntu/app/app
+
+# generate seed
+sudo nodejs /home/ubuntu/app/seeds/seeds.js
