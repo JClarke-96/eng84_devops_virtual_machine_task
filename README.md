@@ -47,6 +47,7 @@
 - `cd /ect/nginx/sites-available/`
 - `sudo rm default` deletes default file
 - `sudo nano default` creates and opens new default
+
 `server {
 	listen 80;
 
@@ -61,5 +62,6 @@
 		proxy_cache_bypass $http_upgrade;
 	}
 }`
+
 - `sudo systemctl restart nginx` to restart
 - Use default file in same location to use reverse proxy
